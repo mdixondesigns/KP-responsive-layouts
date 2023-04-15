@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-tan: #f3eed9;
+}
+
+body {
+  margin: 0;
+}
+
+.site-header {
+  background-color: var(--color-tan);
+}
